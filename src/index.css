@@ -11,3 +11,104 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.noclass{
+  text-align: center;
+  background-color: #0d3b66;
+  color: white;
+}
+  .btn {
+padding: 1.1em 2em;
+background: none;
+border: 2px solid #fff;
+font-size: 15px;
+color: #131313;
+cursor: pointer;
+position: relative;
+overflow: hidden;
+transition: all 0.3s;
+border-radius: 12px;
+background-color: #ecd448;
+font-weight: bolder;
+box-shadow: 0 2px 0 2px #000;
+}
+
+.btn:before {
+content: "";
+position: absolute;
+width: 100px;
+height: 120%;
+background-color: #ff6700;
+top: 50%;
+transform: skewX(30deg) translate(-150%, -50%);
+transition: all 0.5s;
+}
+
+.btn:hover {
+background-color: #4cc9f0;
+color: #fff;
+box-shadow: 0 2px 0 2px #0d3b66;
+}
+
+.btn:hover::before {
+transform: skewX(30deg) translate(150%, -50%);
+transition-delay: 0.1s;
+}
+
+.btn:active {
+transform: scale(0.9);
+}
+
+.card{
+  width: 18rem;
+}
+#img{
+  background-image: url("../public/main.jpg");
+  background-size:     cover; 
+  height: 550px;
+  width: auto;
+
+}
+
+.centered {
+  position: absolute;
+  top: 25%;
+  left: 12%;
+  color: white;
+  font-weight: bold;
+  
+}
+@media screen and (max-width:800px) {
+  .centered{
+    position: absolute;
+    margin-top: 90px;
+    top: 30%;
+    left: 12%;
+    text-align:inherit;
+    color: white;
+    font-weight: bold;
+    font-size: 1rem;
+  }
+  .btn {
+    padding: 0.6em 1em;
+    background: none;
+    border: 2px solid #fff;
+    font-size: 15px;
+    color: #131313;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    transition: all 0.3s;
+    border-radius: 12px;
+    background-color: #ecd448;
+    font-weight: bolder;
+    box-shadow: 0 2px 0 2px #000;
+    }
+  
+}
+
+
+
+
+
+

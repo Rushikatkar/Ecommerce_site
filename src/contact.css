@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+
+body.con-container{
+   display:flex;
+   justify-content:center;
+    align-items:center;
+   height:100%;
+   background:#ecebeb;
+   /*fallback for old browsers*/
+   background:-webkit-linear-gradient(to right,#29ffc6,#20e3b2,#0cebeb);
+   /*Chrome 10-25,Safari 5.1-6*/
+background:linear-gradient(to right,#29ffc6,#20e3b2,#0cebeb);
+
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:'Roboto',sans-serif;
+font-size:18px;
+/*W3C,IE 10+/Edge,Firefox 16+,Chrome 26+,Opera 12+,Safari 7+*/
+}
+
+.con-form{
+
+  width:500px;
+  padding:6px;
+}
+.con-in{
+   width:100%;
+   padding:6px;
+   outline:none;
+ 
+   border:none;
+   margin:6px 0px;
+}
+textarea{
+  width:100%;
+  padding:6px;
+  outline:none;
+
+  border:none;
+  margin:6px 0px;
+}
+
+#con-btn{
+   width:150px;
+   padding:6px;
+   cursor:pointer;
+}
+
+
+/* Footer Container */
+footer {
+   background-color: #333;
+   color: #fff;
+   padding: 20px;
+ }
+ 
+ /* Footer Links */
+ footer a {
+   color: #fff;
+   text-decoration: none;
+   padding: 5px;
+ }
+ 
+ /* Footer Copyright */
+ footer p {
+   margin: 0;
+   text-align: center;
+ }
+ 
